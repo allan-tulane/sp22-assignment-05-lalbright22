@@ -24,7 +24,10 @@ This algorithm is optimal because it will always select the highest value of 2^k
 
 
 
-
+**2a.**
+The greedy algorithm from 1a is not optimal because there may not be a bill to the power of two in that denomination. For example, I could be trying to exchange 17 dollars.
+  In the original algorithm, it would subtract 2^0 and then 2^4.
+However, as the denominations in Fortuito are random. The most optimal solution could be using a bill of the denomination of 5 and 12. 
 
 - **2b.**
 

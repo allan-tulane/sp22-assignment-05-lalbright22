@@ -32,7 +32,9 @@ The algorithm would then repeat this process by calling itself until it reaches 
 This algorithm is optimal because it will always select the highest value of 2^k that can be subtracted from the total exchanged value. It will continue to call itself until the value is reduced to zero.
 
 **1b.**
-For when exchanging 73 dollars.
+For when exchanging 63 dollars.
+
+O(log_2^63)
 
 The Work of the algorithm would be
 

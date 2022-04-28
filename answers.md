@@ -19,8 +19,6 @@ Let X be the possible number of solutions when exchanging ____ dollars for Geome
   
 If the value is zero, the algorithm returns zero. If the value is one, then the algorithm returns 2^0.
 
-The algorithm would then check for if the exchanged number of dollars is an odd number. If it is, it would subtract 2^0 in order to make the new value an even number.
-
 The algorithm would then calculate the greatest power of two that can be subtracted from the exchanged value (for example if there were 72 dollars then 64 dollars would be subtracted because 2^6 is 64)
     
 Each time the algorithm subtracts 2^k from the exchanged dollar value, it adds the 2^k to a total sum. 
@@ -33,6 +31,7 @@ This algorithm is optimal because it will always select the highest value of 2^k
 
 **1b.**
 For when exchanging 63 dollars.
+6 iterations.
 
 O(log_2^63)
 

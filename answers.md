@@ -33,11 +33,7 @@ This algorithm is optimal because it will always select the highest value of 2^k
 For when exchanging 63 dollars.
 6 iterations.
 
-O(log_2^63)
-
-The Work of the algorithm would be
-
-The Span of the algorithm would be
+The Work and Span of the algorithm is O(log_2^63)
 
 
 **2a.**
@@ -46,6 +42,6 @@ The greedy algorithm from 1a is not optimal because there may not be a bill to t
 However, as the denominations in Fortuito are random. The most optimal solution could be using a bill of the denomination of 5 and 12. 
 
 - **2b.**
-
+To solve this problem you would want to compute the largest denomination that can be subtracted from the exchanged dollar amount. Then continue this process until you reach zero.
 
 

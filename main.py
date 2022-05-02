@@ -19,7 +19,12 @@ def MED(S, T):
 
 def fast_MED(S, T, MED={}):
     # TODO -  implement memoization
-    pass
+    if (S == ""):
+      return (len(T))
+    elif(T == ""):
+      return (len(S))
+
+    
 
 def fast_align_MED(S, T, MED={}):
     # TODO - keep track of alignment
